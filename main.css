@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --pink: #cc0e74;
+    --blue: #bbe1fa;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('images/new year.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero {
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    left: 10%;
+    background-color: transparent;
+}
+h1 {
+    font-size: 4rem;
+    margin: 2px;
+    letter-spacing: 1rem;
+    text-align: center;
+    text-shadow: 4px 6px 2px red;
+}
+h1, h2 {
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 4rem;
+    word-spacing: 5px;
+    letter-spacing: 8px;
+    text-shadow: 4px 6px 2px red;
+}
+.main {
+    width: 100%;
+    position: absolute; 
+    color: var(--pink);
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 8rem;
+    font-weight: bold;
+    text-shadow: 3px 5px 2px var(--blue);
+}
